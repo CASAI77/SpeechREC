@@ -7,10 +7,12 @@ SpeechREC lets you dictate text into any application using a customizable hotkey
 ## Features
 - 🔒 **100% offline** — your voice never leaves your PC
 - ⚡ **NVIDIA GPU support** — fast transcription with CUDA
+- 🖥️ **CPU mode** — works on any Windows PC, no GPU required
 - 🌍 **Multilingual** — German, English, and 10+ more languages
 - ⌨️ **Works everywhere** — types into any text field
 - 🔔 **Toast notifications** — shows recognized text
 - 🚀 **Autostart** — runs silently in the system tray
+- 💸 **Free forever** — no subscription, no fees, no account required
 
 ## Download
 👉 **[Latest Release](../../releases/latest)**
@@ -22,7 +24,7 @@ SpeechREC lets you dictate text into any application using a customizable hotkey
 
 ## Requirements
 - Windows 10 / 11
-- NVIDIA GPU recommended (CPU mode also works)
+- NVIDIA GPU recommended for best performance — CPU mode also works on any PC
 
 ## First Start
 The Whisper model (~1.5 GB) is downloaded automatically on first launch.  
@@ -37,10 +39,11 @@ An internet connection is required for this one-time setup.
 
 ### v1.0.0 — Initial Release
 - Offline speech recognition powered by OpenAI Whisper
-- NVIDIA GPU support (auto-detected)
+- NVIDIA GPU support (auto-detected), CPU fallback included
 - System tray with hotkey activation
 - Autostart with Windows
 - Supports 10+ languages
+- No subscription, no account, completely free
 
 ---
 
