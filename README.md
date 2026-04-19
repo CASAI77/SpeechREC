@@ -9,6 +9,10 @@
 
 **SpeechREC** is a free **offline voice-to-text dictation tool for Windows**. Press a hotkey, speak, and your words are typed into any application — browser, Word, Notepad, Discord, anywhere. No subscription, no account, no cloud. Your voice never leaves your PC.
 
+![SpeechREC Demo](docs/Animation.gif)
+
+*Press the hotkey, speak, done — works in any app.*
+
 ---
 
 ## 🚀 Download
@@ -54,6 +58,14 @@
 - **8 GB RAM** recommended (4 GB minimum)
 - **NVIDIA GPU** recommended for fast transcription (optional — CPU mode works too)
 - **Internet connection** for first-time setup only (to download the Whisper model, ~1.5 GB)
+
+---
+
+## 📸 Screenshots
+
+| Settings Window | System Tray |
+|:---:|:---:|
+| ![Settings](docs/Settings.png) | ![Tray Icon](docs/Trayicon.png) |
 
 ---
 
