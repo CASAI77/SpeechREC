@@ -18,7 +18,7 @@ SpeechREC lets you dictate text into any application using a customizable hotkey
 👉 **[Latest Release](../../releases/latest)**
 
 ## Installation
-1. Download `SpeechREC_Setup_1.0.0.exe` from the [latest release](../../releases/latest)
+1. Download the latest `SpeechREC_Setup.exe` from the [latest release](../../releases/latest)
 2. Run the installer
 3. SpeechREC starts automatically in the system tray
 
@@ -36,6 +36,12 @@ An internet connection is required for this one-time setup.
 3. The recognized text is typed into the active text field
 
 ## Changelog
+
+### v1.1.0 — Quality of Life
+- 🚀 **Automatic CUDA setup** — missing GPU libraries are downloaded on first launch
+- ⚡ **Auto-save** — settings are saved instantly, no more save button
+- 🧹 Removed unnecessary notifications toggle
+- ✅ Installer starts the app automatically after installation
 
 ### v1.0.0 — Initial Release
 - Offline speech recognition powered by OpenAI Whisper
