@@ -1,41 +1,96 @@
 # SpeechREC 🎙️
 
-**AI-powered speech recognition for Windows — runs entirely on your PC.**
+> **Free offline speech-to-text for Windows — powered by OpenAI Whisper, runs 100% on your PC.**
 
-SpeechREC lets you dictate text into any application using a customizable hotkey. It uses OpenAI's Whisper model locally — no internet connection required, no data sent to the cloud.
+[![Latest Release](https://img.shields.io/github/v/release/CASAI77/SpeechREC?style=flat-square&color=22c55e)](../../releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/CASAI77/SpeechREC/total?style=flat-square)](../../releases)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-blue?style=flat-square)](../../releases/latest)
+[![License](https://img.shields.io/badge/price-Free-success?style=flat-square)](../../releases/latest)
 
-## Features
-- 🔒 **100% offline** — your voice never leaves your PC
-- ⚡ **NVIDIA GPU support** — fast transcription with CUDA
-- 🖥️ **CPU mode** — works on any Windows PC, no GPU required
-- 🌍 **Multilingual** — German, English, and 10+ more languages
-- ⌨️ **Works everywhere** — types into any text field
-- 🔔 **Toast notifications** — shows recognized text
-- 🚀 **Autostart** — runs silently in the system tray
-- 💸 **Free forever** — no subscription, no fees, no account required
+**SpeechREC** is a free **offline voice-to-text dictation tool for Windows**. Press a hotkey, speak, and your words are typed into any application — browser, Word, Notepad, Discord, anywhere. No subscription, no account, no cloud. Your voice never leaves your PC.
 
-## Download
-👉 **[Latest Release](../../releases/latest)**
+---
 
-## Installation
-1. Download the latest `SpeechREC_Setup.exe` from the [latest release](../../releases/latest)
-2. Run the installer
-3. SpeechREC starts automatically in the system tray
+## 🚀 Download
 
-## Requirements
-- Windows 10 / 11
-- NVIDIA GPU recommended for best performance — CPU mode also works on any PC
+👉 **[Download latest version (Windows)](../../releases/latest)**
 
-## First Start
-The Whisper model (~1.5 GB) is downloaded automatically on first launch.  
-An internet connection is required for this one-time setup.
+1. Download `SpeechREC_Setup.exe`
+2. Run the installer — app starts automatically
+3. Press your hotkey and start dictating
 
-## Usage
-1. Press the configured hotkey (default: `Ctrl + Win`) to start recording
-2. Speak — release the hotkey to stop
-3. The recognized text is typed into the active text field
+---
 
-## Changelog
+## ✨ Features
+
+- 🔒 **100% offline & private** — your voice never leaves your PC, no cloud, no API keys
+- ⚡ **NVIDIA GPU support** — fast transcription with CUDA (auto-installed on first launch)
+- 🖥️ **CPU mode** — works on any Windows PC, even without a dedicated GPU
+- 🌍 **Multilingual** — German, English, French, Spanish, Italian, Portuguese, Russian, Japanese, Chinese, Dutch, Polish, Turkish
+- ⌨️ **Works everywhere** — types directly into any text field in any app
+- 🎯 **Customizable hotkey** — Ctrl+Win, F9, Caps Lock, mouse buttons, and more
+- 🔄 **Autostart** — launches silently on Windows startup, stays in the system tray
+- 💸 **Free forever** — no subscription, no ads, no account required
+- 🔧 **Auto-save settings** — every change is saved instantly
+
+---
+
+## 💡 Why SpeechREC?
+
+| | SpeechREC | Windows Voice Typing | Dragon NaturallySpeaking | Google Voice Typing |
+|---|---|---|---|---|
+| Runs offline | ✅ | ⚠️ (partial) | ✅ | ❌ |
+| Free forever | ✅ | ✅ | ❌ (~$200+) | ✅ |
+| GPU acceleration | ✅ | ❌ | ❌ | — |
+| Works in any app | ✅ | ⚠️ | ✅ | ⚠️ |
+| No account required | ✅ | ✅ | ❌ | ❌ |
+| Uses OpenAI Whisper | ✅ | ❌ | ❌ | ❌ |
+
+---
+
+## 📋 Requirements
+
+- **Windows 10 or 11**
+- **8 GB RAM** recommended (4 GB minimum)
+- **NVIDIA GPU** recommended for fast transcription (optional — CPU mode works too)
+- **Internet connection** for first-time setup only (to download the Whisper model, ~1.5 GB)
+
+---
+
+## 🎯 How it works
+
+1. **Press your hotkey** (default: `Ctrl + Win`)
+2. **Speak** — the microphone icon turns red while recording
+3. **Release the hotkey** — AI transcribes your speech
+4. **Text is typed** into the active window
+
+Everything happens **locally on your PC** using [OpenAI's Whisper](https://github.com/openai/whisper) model — the same state-of-the-art speech recognition that powers ChatGPT Voice.
+
+---
+
+## ❓ FAQ
+
+**Q: Is this really free?**  
+Yes. No trial, no subscription, no account. Forever.
+
+**Q: Does it work without internet?**  
+Yes, once the Whisper model is downloaded on first launch (~1.5 GB, one-time).
+
+**Q: Is my voice sent anywhere?**  
+No. Everything runs locally on your PC. No telemetry, no cloud.
+
+**Q: My friend has an NVIDIA GPU but no Python installed. Will GPU work?**  
+Yes! SpeechREC v1.1+ automatically downloads the required CUDA libraries on first launch.
+
+**Q: Does it support my language?**  
+12 languages out of the box: DE, EN, FR, ES, IT, PT, RU, JA, ZH, NL, PL, TR. Plus auto-detect.
+
+**Q: Can I change the hotkey?**  
+Yes — 9 presets available (Ctrl+Win, Shift+Win, Ctrl+Alt, F8, F9, Caps Lock, Mouse4, Mouse5).
+
+---
+
+## 📝 Changelog
 
 ### v1.1.0 — Quality of Life
 - 🚀 **Automatic CUDA setup** — missing GPU libraries are downloaded on first launch
@@ -53,7 +108,14 @@ An internet connection is required for this one-time setup.
 
 ---
 
-## Support
-If you find SpeechREC useful, consider buying me a coffee ☕
+## 🔖 Keywords
+
+*speech recognition, voice to text, dictation, Whisper AI, offline speech-to-text, Windows dictation tool, voice typing, OpenAI Whisper, free dictation software, speech-to-text Windows, Spracherkennung, Diktiersoftware, offline Diktat, kostenlose Spracherkennung*
+
+---
+
+## ☕ Support
+
+If you find SpeechREC useful, consider buying me a coffee — it helps me keep the project free.
 
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/casai)
