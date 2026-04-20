@@ -104,6 +104,12 @@ Yes — 9 presets available (Ctrl+Win, Shift+Win, Ctrl+Alt, F8, F9, Caps Lock, M
 
 ## 📝 Changelog
 
+### v1.2.0 — More hotkeys & stability
+- ⌨️ **F1–F12 hotkeys** added (previously only F8 and F9)
+- 🛡️ Dropdown menus are now read-only — prevents accidental invalid values
+- 🔒 Automatic config sanitizer — broken config files are repaired on launch
+- 🐛 Fixed GPU memory leak caused by invalid dropdown entries
+
 ### v1.1.0 — Quality of Life
 - 🚀 **Automatic CUDA setup** — missing GPU libraries are downloaded on first launch
 - ⚡ **Auto-save** — settings are saved instantly, no more save button
