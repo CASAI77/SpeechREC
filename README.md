@@ -106,6 +106,7 @@ Yes — 9 presets available (Ctrl+Win, Shift+Win, Ctrl+Alt, F8, F9, Caps Lock, M
 
 ### v1.2.0 — More hotkeys & stability
 - ⌨️ **F1–F12 hotkeys** added (previously only F8 and F9)
+- 🔄 **Auto-update check** — notifies you monthly if a new version is available
 - 🛡️ Dropdown menus are now read-only — prevents accidental invalid values
 - 🔒 Automatic config sanitizer — broken config files are repaired on launch
 - 🐛 Fixed GPU memory leak caused by invalid dropdown entries
