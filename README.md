@@ -104,6 +104,12 @@ Yes — 9 presets available (Ctrl+Win, Shift+Win, Ctrl+Alt, F8, F9, Caps Lock, M
 
 ## 📝 Changelog
 
+### v1.3.0 — Faster CPU transcription
+- ⚡ **6× faster on CPU** — automatically uses Distil-Whisper when model is set to "large" and device is "cpu"
+- 🎯 Same quality (<1% accuracy loss vs. standard Whisper Large)
+- 💾 49% smaller model — less RAM usage
+- 🌐 Multilingual (German, English, and more)
+
 ### v1.2.0 — More hotkeys & stability
 - ⌨️ **F1–F12 hotkeys** added (previously only F8 and F9)
 - 🔄 **Auto-update check** — notifies you monthly if a new version is available
