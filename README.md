@@ -3,7 +3,7 @@
 > **Free offline speech-to-text for Windows — powered by OpenAI Whisper, runs 100% on your PC.**
 
 [![Latest Release](https://img.shields.io/github/v/release/CASAI77/SpeechREC?style=flat-square&color=22c55e)](../../releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/CASAI77/SpeechREC/total?style=flat-square)](../../releases)
+[![Downloads](https://img.shields.io/github/downloads/CASAI77/SpeechREC/total?style=flat-square)](../../releases/latest)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-blue?style=flat-square)](../../releases/latest)
 [![License](https://img.shields.io/badge/price-Free-success?style=flat-square)](../../releases/latest)
 
